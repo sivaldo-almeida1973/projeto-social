@@ -34,7 +34,7 @@ section#telefone{
 
 
 }
-iframe#tela{
+iframe#tela{/*tudo isso configura tela do celular*/
     position: relative;
     top: 80px;
     left: 22px;
@@ -43,5 +43,25 @@ iframe#tela{
     height: 472px;
 
 
+}
+section#redes-sociais{
+    text-align: right;/*faz as logos passarem para o lado direito*/
+
+
+}
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50px;/*arredonda as logos*/
+    box-shadow: 2px 2px 5px black ;
+    box-sizing: border-box;/*tira defeito da borda criada nas logos*/
+
+}
+section#redes-sociais img:hover{
+    border: 2px solid rgba(248, 247, 245, 0.705);/*coloca bordas nas logos*/
+    transform: translate(-3px, -3px);/*dá um efeito de movintar a logo pra frente*/
+    box-shadow: 2px 2px 6px rgba(223, 34, 34, 0.534);/*sombra na logo*/
+    transition-duration: .3s ;
+    
 }
 
