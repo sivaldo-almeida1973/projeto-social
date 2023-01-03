@@ -34,3 +34,14 @@ section#telefone{
 
 
 }
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    right: 22px;
+    width: 270px ;
+    height: 472px;
+
+
+}
+
