@@ -7,25 +7,25 @@
 }
 html, body{
     height: 100vh;/*altura total*/
-    height: 100vw;/*largura total*/
+    width: 100vw;/*largura total*/
     background-color: black;
 }
 body{
-    background: url('../imagens/imagens/fundo-madeira.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    background: url('../imagens/imagens/fundo-madeira.jpg')  no-repeat top center;
+    background-size: cover;/* faz o bacground  cobrir a tela inteira*/
+    background-attachment: fixed;/* faz ficar sem rolagem*/
 }
 main{
     height: 100vh;
-    position: relative;
+    position: relative;/*centralizar o telefone*/
     
 
 }
 section#telefone{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;/*cetralizar o telefone*/
+    top: 50%;/*serve para centralizar a o telefone*/
+    left: 50%;/*serve para centralizar a o telefone*/
+    transform: translate(-50%, -50%);/*serve para centralizar a o telefone*/
     height: 627px;
     width: 311px;
     
