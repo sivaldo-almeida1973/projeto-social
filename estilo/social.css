@@ -17,7 +17,7 @@
    }
    a {
        display: block;/* faz o link de acesso aparecer em baixo da tela*/
-       background-color: darkred;
+       background-color: rgb(139, 39, 0);
        padding: 10px;
        text-align: center;
        font-family: fantasy;
@@ -26,5 +26,5 @@
 
    }
    a:hover{
-       background-color: blue;
+       background-color: rgb(221, 218, 15);
    }
